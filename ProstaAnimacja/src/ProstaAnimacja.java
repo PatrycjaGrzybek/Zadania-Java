@@ -27,7 +27,7 @@ import java.awt.*;
 				panel.repaint();
 				
 				try {
-					Thread.sleep(50);
+					Thread.sleep(100);
 				} catch (Exception ex) { }
 			}
 		} 

@@ -8,7 +8,7 @@ public class CodziennePoradySerwer {
 	public void doDzie³a() {
 		
 		try {
-			ServerSocket gniazdoSrw = new ServerSocket(4242);
+			ServerSocket gniazdoSrw = new ServerSocket(424);
 			
 			while(true) {
 				Socket gniazdo = gniazdoSrw.accept();
